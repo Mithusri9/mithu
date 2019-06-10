@@ -1,0 +1,23 @@
+import numpy as np
+x=np.array([1,2,3,4])
+y=np.array([5.5,6.5,7.5,8.5])
+z=x+y
+v=x-y
+b=x/y
+k=x*y
+print(z)
+print(v)
+print(b)
+print(k)
+x=np.array([[1,2],[3,4]])
+v=np.sqrt(x)
+z=x.mean()
+y=x.std()
+b=x.max()
+u=x.min()
+r=np.median(x)
+print(v)
+print(z)
+print(b)
+print(u)
+print(r)
